@@ -56,6 +56,8 @@ app.get('/api/contacts', (req, res, next) => {
   ]);
 })
 
+
+
 // serve client app
 app.use(express.static('dist'));
 
